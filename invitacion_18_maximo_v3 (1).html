@@ -1,6 +1,64 @@
 
 <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Inter:wght@400;600;700&display=swap" rel="stylesheet">
-<style>
+/* RESPONSIVE CELULAR */
+@media (max-width: 768px){
+
+  .inv-main{
+    grid-template-columns:1fr !important;
+  }
+
+  .inv-left{
+    border-right:none !important;
+    border-bottom:1px solid rgba(255,255,255,0.05);
+    padding:20px !important;
+  }
+
+  .inv-right{
+    padding:20px !important;
+  }
+
+  .inv-title-big{
+    font-size:58px !important;
+  }
+
+  .inv-date-badge{
+    position:relative !important;
+    top:auto !important;
+    right:auto !important;
+    margin-bottom:20px;
+    text-align:left;
+  }
+
+  .inv-info-grid{
+    grid-template-columns:1fr !important;
+  }
+
+  .inv-extra-grid{
+    grid-template-columns:1fr !important;
+  }
+
+  .countdown-grid{
+    grid-template-columns:repeat(2,1fr) !important;
+  }
+
+  .inv-desc{
+    max-width:100% !important;
+  }
+
+  .inv-top-bar{
+    flex-direction:column;
+    gap:8px;
+    text-align:center;
+  }
+
+  .elephant-bg{
+    display:none;
+  }
+
+  body{
+    overflow-x:hidden;
+  }
+}<style>
 *{box-sizing:border-box;margin:0;padding:0}
 body{background:#0d0d0d}
 
